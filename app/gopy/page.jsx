@@ -306,7 +306,7 @@ const cancelit = () => {
               </div>
               <div className="flex justify-between gap-4">
                 <div dir="ltr" className="flex-[70%] flex gap-2 items-center">
-                  <div className="flex-[30%] max-w-72">
+                  <div className="flex-[40%] max-w-72">
                     <div>
                       <select
                         name="prefex"
