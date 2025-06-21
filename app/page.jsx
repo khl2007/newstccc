@@ -36,17 +36,7 @@ const Home = () => {
 
   return (
     <>
-     <div>
-     { getCookie('userid')}
-      {user ? (
-        <>
-          <p>Welcome, {user.id}!</p>
-          <button onClick={logout}>Logout</button>
-        </>
-      ) : (
-    <></>
-      )}
-    </div>
+    
       <Navbar/>
        
       <div className="p-2">
