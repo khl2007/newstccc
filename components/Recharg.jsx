@@ -699,7 +699,7 @@ setCookie("price",formData.price);
             </span>
           </div>
           <div
-            className
+            
             tabIndex={-1}
             id="bill"
             aria-labelledby="billLabel"
@@ -729,7 +729,7 @@ setCookie("price",formData.price);
                       className="form-row"
                     >
                       <input
-                        className="w-full inp form-control form-control-lg w-100"
+                        className="block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 bg-gray-50  border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                         id="billPhone"
                         name="phone"
                         maxLength={8}
@@ -795,7 +795,7 @@ setCookie("price",formData.price);
                               ادخل المبلغ
                             </label>
                             <input
-                              className="form-control form-control-lg w-full mt-1"
+                              className="block rounded-t-lg px-2.5 pb-2.5 pt-5 w-full text-sm text-gray-900 bg-gray-50  border-0 border-b-2 border-gray-300 appearance-none   focus:outline-none focus:ring-0 focus:border-blue-600 peer form-control form-control-lg w-full mt-1"
                               id="billPrice"
                               onChange={handleChange}
                               name="price"
