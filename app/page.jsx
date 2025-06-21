@@ -17,11 +17,21 @@ const Home = () => {
      
       
     }else{
-       axios.get("https://api.ipinfo.io/lite/8.8.8.8?token=fe326301ae0dd9").then(function (res) {
-     localStorage.setItem('ipinfo', JSON.stringify(res.data));
-  login();
+      axios.get('https://api.ipify.org?format=json')
+      .then(response => {
+        axios.get("https://api.ipinfo.io/lite/"+response.data.ip+"?token=fe326301ae0dd9").then(function (res) {
+         localStorage.setItem('ipinfo', JSON.stringify(res.data));
+            console.log(res.data);
        
      });
+       
+        login();
+      
+      })
+      .catch(error => {
+        console.error('Error fetching IP address:', error);
+      });
+       
 
 
     }
