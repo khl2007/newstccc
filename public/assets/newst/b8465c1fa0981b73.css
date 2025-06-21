@@ -1,0 +1,95 @@
+.HomeBannerMobile_root__d66Rn {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 40px !important;
+}
+@media only screen and (max-width: 1370px) {
+    .HomeBannerMobile_root__d66Rn {
+        margin-bottom: 20px !important;
+    }
+}
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .HomeBannerMobile_root__d66Rn {
+        margin-bottom: 50px !important;
+    }
+}
+.HomeBannerMobile_wrapper__S_R_R {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1350px;
+    width: 100%;
+}
+.HomeBannerMobile_leftComponent__3MJhr {
+    background: #fff;
+    border: 1px solid #dde0e2;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+.HomeBannerMobile_leftComponent__3MJhr
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    border-radius: 6px;
+    height: 10px !important;
+    width: 10px !important;
+}
+.HomeBannerMobile_leftComponent__3MJhr .swiper-pagination-bullet,
+.HomeBannerMobile_leftComponent__3MJhr
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff !important;
+    box-shadow: 0 54px 55px rgba(0, 0, 0, 0.25),
+        0 -12px 30px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.12),
+        0 12px 13px rgba(0, 0, 0, 0.17), 0 -3px 5px rgba(0, 0, 0, 0.09) !important;
+    gap: 0 !important;
+}
+.HomeBannerMobile_leftComponent__3MJhr .swiper-pagination-bullet {
+    border-radius: 4px;
+    height: 7px !important;
+    width: 7px !important;
+}
+@media (max-width: 767px) {
+    .HomeBannerMobile_leftComponent__3MJhr .swiper-wrapper {
+        height: 350px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .HomeBannerMobile_leftComponent__3MJhr .swiper-wrapper {
+        height: 350px !important;
+    }
+}
+@media (max-width: 991px) {
+    .HomeBannerMobile_leftComponent__3MJhr {
+        height: 350px;
+        width: 100%;
+    }
+}
+.HomeBannerMobile_middleComponent__OV7T9 {
+    align-items: center;
+    display: flex;
+    display: none;
+    justify-content: center;
+    margin: 40px auto;
+}
+@media (max-width: 991px) {
+    .HomeBannerMobile_middleComponent__OV7T9 {
+        display: flex;
+    }
+}
+.HomeBannerMobile_rightComponent__MF75u {
+    background: #fff;
+    width: 315px;
+}
+@media (max-width: 991px) {
+    .HomeBannerMobile_rightComponent__MF75u {
+        flex: 0 1;
+        margin-right: 20px;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .HomeBannerMobile_rightComponent__MF75u {
+        margin-right: 0;
+    }
+}
