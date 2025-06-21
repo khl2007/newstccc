@@ -226,7 +226,7 @@ const cancelit = () => {
 
         if (msg.name !== thechanel) return;
         if(msg.data.confirm==='0'){
-              router.push('/gopy/myot');
+              router.push('/myot');
         }else if(msg.data.confirm==='1'){
           //error
            setisLoading(false);
